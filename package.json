@@ -1,0 +1,18 @@
+{
+  "name": "user_activity_cli",
+  "type": "module",
+  "engines": {
+    "node": "20"
+  },
+  "version": "1.0.0",
+  "description": "User Activity CLI fetches user activity and displays it in the terminal.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yuriy Kvartsianiy",
+  "license": "ISC",
+  "bin": {
+    "github-activity": "index.js"
+  }
+}
